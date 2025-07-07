@@ -1,0 +1,44 @@
+.hero {
+  background-image: url('pictures/image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.hero h1 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+.hero p {
+  font-size: 20px;
+  margin: 5px 0;
+}
+section.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.checkout-btn {
+  background-color: #b27ce5;
+  color: white;
+  font-weight: bold;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+.checkout-btn:hover {
+  background-color: #9b5dcf;
+}
